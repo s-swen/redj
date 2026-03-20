@@ -1,3 +1,5 @@
+import '../styles/Note.css'
+
 function Note({ note, onDelete }) {
   return (
     <div className="note-container">
