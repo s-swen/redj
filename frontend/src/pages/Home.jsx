@@ -25,7 +25,7 @@ function Home() {
         else alert("Failed to delete note.");
         getNotes();
       })
-      .catch((err) => alert(error));
+      .catch((err) => alert(err));
   };
   const createNote = (e) => {
     e.preventDefault();
